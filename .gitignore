@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.eggs/
+*.egg-info/
+*.egg
+.venv/
+venv/
+env/
+
+# Step 1 산출 (용량 큼)
+data/eigen/*.npz
+# Step 5에서 복사되는 웹용 데이터 (data/eigen 에서 복사되므로 무시해도 됨)
+webapp/public/data/
+
+# 다운로드 메시 (Stanford 등, 선택적 커밋)
+data/meshes/*.obj
+
+# Step 4·논문 산출
+data/results/
+figures/*.pdf
+figures/*.png
+
+# Webapp
+webapp/node_modules/
+webapp/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 기타
+.env
+.env.local
+*.log
+.ipynb_checkpoints/
