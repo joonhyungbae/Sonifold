@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.eggs/
+*.egg-info/
+*.egg
+.venv/
+venv/
+env/
+
+# Step 1 output (large)
+data/eigen/*.npz
+# Web data copied in Step 5 (from data/eigen, can ignore)
+webapp/public/data/
+
+# Downloaded meshes (Stanford etc., optional commit)
+data/meshes/*.obj
+
+# Step 4 / paper output (all result outputs go here)
+data/results/
+# Legacy: script used to write to root results/; now unified to data/results/
+results/
+
+# Webapp
+webapp/node_modules/
+webapp/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+.env
+.env.local
+*.log
+.ipynb_checkpoints/

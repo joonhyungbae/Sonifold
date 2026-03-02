@@ -1,0 +1,12 @@
+# Sonifold dependencies (CPU pipeline: step2/step4 etc. | GPU required: step1)
+numpy>=1.20,<2
+scipy>=1.7
+trimesh>=3.15
+gpytoolbox>=0.3.4
+tqdm>=4.60
+pandas>=1.0
+matplotlib>=3.5
+# Genus 5,6 mesh (boolean union of tori): pip install manifold3d  (or use Blender)
+# For GPU (step1): check CUDA version with nvidia-smi, then install one of:
+# CUDA 12.x: cupy-cuda12x  /  CUDA 11.x: cupy-cuda11x (replace the line below with the matching package)
+cupy-cuda12x

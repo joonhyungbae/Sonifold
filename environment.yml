@@ -1,0 +1,23 @@
+# Sonifold conda environment (eigenvalue convergence test, precompute, experiment scripts).
+# GPU: cupy-cuda12x (CUDA 12). For CUDA 11 install then: pip install cupy-cuda11x
+#
+# Create: conda env create -f environment.yml
+# Activate: conda activate sonifold
+# Update: conda env update -f environment.yml --prune
+
+name: sonifold
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - "numpy>=1.20,<2"
+    - "scipy>=1.7"
+    - trimesh>=3.15
+    - gpytoolbox>=0.3.4
+    - matplotlib>=3.5
+    - tqdm>=4.60
+    - pandas>=1.0
+    - pymeshlab
+    - cupy-cuda12x

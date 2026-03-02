@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/AppBar.tsx","./src/MeshScene.tsx","./src/main.tsx","./src/scalarField.ts","./src/spectralMapping.ts","./src/stft.ts","./src/topologyMetrics.ts","./src/types.ts","./src/useAudioAnalyser.ts"],"version":"5.9.3"}
