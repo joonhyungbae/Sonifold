@@ -1,6 +1,6 @@
 # Sonifold: Audio-Driven Nodal Surfaces on 3D Meshes
 
-Audio-driven nodal patterns on 3D shapes via Laplace–Beltrami eigenfunctions; the shape acts as a geometry-dependent spectral filter. Companion to the paper *Sonifold: Audio-Driven Nodal Surfaces on 3D Meshes* (Journal of Mathematics and the Arts).
+Audio-driven nodal patterns on 3D shapes via Laplace–Beltrami eigenfunctions; the shape acts as a geometry-dependent spectral filter.
 
 ## Setup
 
