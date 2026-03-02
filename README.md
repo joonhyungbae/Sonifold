@@ -18,10 +18,15 @@ Python 3.10; `pip install -r requirements.txt` or `conda env create -f environme
 
 **Paper figures:** after Step 1 and 4, run `python scripts/figures/generate_figures.py` (output in `figures/`).
 
-**Data:** `data/eigen/` and `data/results/` are gitignored; create them with Step 1 and 4. Optional WAVs for A3/A4/A7: see `data/audio/README.md`. Full layout: [data/README.md](data/README.md).
+**Data:** `data/eigen/` and `data/results/` are gitignored; create them with Step 1 and 4. Optional WAVs for A3/A4/A7 go in `data/audio/`. Directory layout: `data/eigen/` (eigenpairs), `data/audio/` (WAVs), `data/experiments/`, `data/meshes/`.
+
+## Project layout
+
+- **Core:** `precompute/`, `audio/`, `mapping/`, `analysis/`
+- **Runs:** `experiment/`
+- **Scripts:** `scripts/figures/`, `scripts/analysis/`
+- **Outputs:** `figures/`, `data/` (eigen, results, experiments, meshes)
 
 ## License
 
 MIT ([LICENSE](LICENSE)). Paper/figures may have separate terms.
-
-**Layout:** Core code: `precompute/`, `audio/`, `mapping/`, `analysis/`. Runs: `experiment/`. Scripts: `scripts/figures/`, `scripts/analysis/`. See [docs/STRUCTURE.md](docs/STRUCTURE.md).
