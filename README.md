@@ -18,7 +18,7 @@ Python 3.10; `pip install -r requirements.txt` or `conda env create -f environme
 
 **Paper figures:** after Step 1 and 4, run `python scripts/figures/generate_figures.py` (output in `figures/`).
 
-**Data:** `data/eigen/` and `data/results/` are gitignored; create them with Step 1 and 4. Optional WAVs for A3/A4/A7 go in `data/audio/`. Directory layout: `data/eigen/` (eigenpairs), `data/audio/` (WAVs), `data/experiments/`, `data/meshes/`.
+**Data:** `data/eigen/`, `data/experiments/eigen/`, and `data/results/` are gitignored; create them with Step 1, `python -m experiment.precompute_experiment_eigen`, and Step 4 respectively. Optional WAVs for A3/A4/A7 go in `data/audio/`. Directory layout: `data/eigen/` (eigenpairs), `data/audio/` (WAVs), `data/experiments/`, `data/meshes/`.
 
 ## Project layout
 
