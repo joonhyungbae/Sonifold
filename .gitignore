@@ -49,6 +49,9 @@ sonifold_paper/
 CLAUDE.md
 CLAUDE_paper_general.md
 
+# Local helper for committing into the paper sub-repo
+paper.sh
+
 # Other
 .env
 .env.local
