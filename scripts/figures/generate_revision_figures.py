@@ -131,13 +131,21 @@ def fig_E3():
     print(f"wrote {out}")
 
 
+def _pretty_torus_label(spec: str) -> str:
+    """Convert internal mesh-code 'torus_<R>_<r>' to a math-mode label '$R{=}3,\\ r{=}1$'."""
+    parts = spec.split("_")
+    if len(parts) == 3 and parts[0] == "torus":
+        return f"$R{{=}}{parts[1]},\\ r{{=}}{parts[2]}$"
+    return spec
+
+
 def fig_E4():
     data = _load("E4_sameg.json")
     if data is None:
         return
     specs = data["specs"]
     stimuli = data["stimuli"]
-    fig, ax = plt.subplots(figsize=(6, 4))
+    fig, ax = plt.subplots(figsize=(6.4, 4))
     x = np.arange(len(specs))
     width = 0.25
     for i, aid in enumerate(stimuli):
@@ -147,10 +155,11 @@ def fig_E4():
         ]
         ax.bar(x + (i - 1) * width, ys, width, label=aid)
     ax.set_xticks(x)
-    ax.set_xticklabels(specs, rotation=10)
+    ax.set_xticklabels([_pretty_torus_label(s) for s in specs])
+    ax.set_xlabel("Genus-1 torus embedding")
     ax.set_ylabel(r"mean $\beta_0$")
     ax.set_title("E4: genus 1, three embedded metrics")
-    ax.legend()
+    ax.legend(title="stimulus")
     ax.grid(True, axis="y", alpha=0.3)
     fig.tight_layout()
     out = OUT / "fig_rev_E4_sameg.pdf"

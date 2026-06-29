@@ -45,6 +45,10 @@ Thumbs.db
 # Paper submodule (tracked separately)
 sonifold_paper/
 
+# Local working / instruction docs (not for public repo)
+CLAUDE.md
+CLAUDE_paper_general.md
+
 # Other
 .env
 .env.local
