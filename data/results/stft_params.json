@@ -1,0 +1,37 @@
+{
+  "python_scripts": {
+    "source": "audio/fft_analysis.py, scripts/*.py, experiment/*.py, figures/fig_temporal_beta0.py",
+    "sampling_rate_hz": 44100,
+    "window_function": "hann",
+    "window_size_samples": 2048,
+    "n_fft": 2048,
+    "hop_length_samples": 512,
+    "n_freq_bins": 1024,
+    "frame_rate_hz": 86.1328125,
+    "frequency_resolution_hz": 21.533203125,
+    "note": "N_BINS=1024 truncates rfft output (1025 for n_fft=2048). Audio from audio_library uses _SR=44100."
+  },
+  "web_app": {
+    "source": "webapp/src/useAudioAnalyser.ts, webapp/src/spectralMapping.ts",
+    "sampling_rate_hz": "AudioContext.sampleRate (browser-dependent, typically 44100 or 48000)",
+    "window_function": "Blackman",
+    "fft_size": 2048,
+    "window_size_samples": 2048,
+    "n_freq_bins": 1024,
+    "hop_length_samples": "N/A (AnalyserNode updates on getFloatFrequencyData calls, typically every requestAnimationFrame ~60 Hz)",
+    "frame_rate_hz": "~60 (display-driven, not sample-based)",
+    "note": "analyser.fftSize = FFT_SIZE * 2 with FFT_SIZE=1024. Web Audio API AnalyserNode uses Blackman window by default; window function is not configurable."
+  },
+  "figure_only_not_pipeline": {
+    "source": "figures/fig_audio_spectra.py",
+    "purpose": "Spectrogram visualization for paper figure only; not used for coefficient mapping.",
+    "n_fft": 1024,
+    "hop": 256,
+    "window": "scipy.signal.spectrogram default (Hann)"
+  },
+  "differences": {
+    "window_function": "Python pipeline uses Hann; web app uses Blackman (browser AnalyserNode default, not configurable).",
+    "hop_and_frame_rate": "Python: fixed hop 512 samples, frame rate ≈86.13 Hz. Web: no fixed hop; updates at requestAnimationFrame rate (~60 Hz).",
+    "sampling_rate": "Python: fixed 44100 Hz from audio files. Web: AudioContext.sampleRate (typically 44100 or 48000, not set in code)."
+  }
+}

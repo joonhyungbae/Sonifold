@@ -1,0 +1,8 @@
+mesh,genus,beta0_K50,beta0_K100,beta0_K200
+sphere_genus0,0,127.1678,155.6573,199.049
+torus_genus1,1,65.789,87.5979,107.4918
+double_torus_genus2,2,79.2016,83.8904,106.9802
+triple_torus_genus3,3,96.9114,108.9534,144.1037
+quad_torus_genus4,4,105.0734,120.2762,148.3322
+penta_torus_genus5,5,112.1422,117.7354,157.8613
+hex_torus_genus6,6,86.866,145.3858,162.6131

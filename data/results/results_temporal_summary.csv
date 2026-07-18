@@ -1,0 +1,5 @@
+audio_id,mesh_id,beta0_mean,beta0_std,n_frames
+A3,sphere_genus0,75.54,8.96,858
+A3,torus_genus1,51.19,13.16,858
+A7,sphere_genus0,40.08,11.03,858
+A7,torus_genus1,4.3,4.53,858

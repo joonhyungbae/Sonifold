@@ -1,0 +1,59 @@
+Cello sequencing figure (A7): visual transition at each of the four frames
+across sphere, torus, and double torus.
+
+Frame 1 — Sparse/quiet opening (t = 0.000 s)
+------------------------------------------------------------
+  Sphere: β₀ = 1, A_ratio = 0.0685, S = 0.3343.
+  Torus: β₀ = 2, A_ratio = 0.0518, S = 0.3341.
+  Double Torus: β₀ = 1, A_ratio = 0.1001, S = 0.3783.
+  Visual transition: The same STFT frame at this time is mapped onto the three 
+  shapes. On the sphere the nodal set (black curves) and scalar field (red–blue) 
+  typically show a relatively simple structure (few components). On the torus, 
+  the pattern becomes more interlaced; on the double torus it fragments further, 
+  with more nodal components and a denser visual. Thus at this phrase moment, 
+  switching shape from sphere → torus → double torus gives a clear progression 
+  from ordered to complex.
+
+Frame 2 — First phrase peak (t = 0.035 s)
+------------------------------------------------------------
+  Sphere: β₀ = 1, A_ratio = 0.0671, S = 0.3342.
+  Torus: β₀ = 2, A_ratio = 0.0516, S = 0.3338.
+  Double Torus: β₀ = 1, A_ratio = 0.0841, S = 0.3764.
+  Visual transition: The same STFT frame at this time is mapped onto the three 
+  shapes. On the sphere the nodal set (black curves) and scalar field (red–blue) 
+  typically show a relatively simple structure (few components). On the torus, 
+  the pattern becomes more interlaced; on the double torus it fragments further, 
+  with more nodal components and a denser visual. Thus at this phrase moment, 
+  switching shape from sphere → torus → double torus gives a clear progression 
+  from ordered to complex.
+
+Frame 3 — Transition moment (t = 0.081 s)
+------------------------------------------------------------
+  Sphere: β₀ = 1, A_ratio = 0.0644, S = 0.3350.
+  Torus: β₀ = 2, A_ratio = 0.0548, S = 0.3341.
+  Double Torus: β₀ = 1, A_ratio = 0.0858, S = 0.3748.
+  Visual transition: The same STFT frame at this time is mapped onto the three 
+  shapes. On the sphere the nodal set (black curves) and scalar field (red–blue) 
+  typically show a relatively simple structure (few components). On the torus, 
+  the pattern becomes more interlaced; on the double torus it fragments further, 
+  with more nodal components and a denser visual. Thus at this phrase moment, 
+  switching shape from sphere → torus → double torus gives a clear progression 
+  from ordered to complex.
+
+Frame 4 — Dense climax (t = 0.406 s)
+------------------------------------------------------------
+  Sphere: β₀ = 1, A_ratio = 0.0697, S = 0.3345.
+  Torus: β₀ = 2, A_ratio = 0.0484, S = 0.3367.
+  Double Torus: β₀ = 1, A_ratio = 0.1138, S = 0.3951.
+  Visual transition: The same STFT frame at this time is mapped onto the three 
+  shapes. On the sphere the nodal set (black curves) and scalar field (red–blue) 
+  typically show a relatively simple structure (few components). On the torus, 
+  the pattern becomes more interlaced; on the double torus it fragments further, 
+  with more nodal components and a denser visual. Thus at this phrase moment, 
+  switching shape from sphere → torus → double torus gives a clear progression 
+  from ordered to complex.
+
+Overall: At each of the four phrase moments (opening, first peak, transition, climax), 
+the same cello audio is filtered by the shape's eigenbasis. The sphere tends to 
+simplify the pattern; the double torus tends to fragment it. The top strip (RMS 
+envelope with vertical lines) shows where in time these four frames were chosen.

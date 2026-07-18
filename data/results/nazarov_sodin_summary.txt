@@ -1,0 +1,6 @@
+Nazarov–Sodin comparison (sphere, single eigenfunction vs K=50 superposition)
+================================================================================
+
+On the sphere, for a random spherical harmonic of degree L, Nazarov & Sodin predict that the expected number of nodal domains grows as c·L² for a universal constant c. Using the discrete Laplacian eigenbasis (K=50 modes) and random combinations within each degree-L eigenspace (2L+1 modes), we estimated c from mean β₀ vs L²: c ≈ 5.1889 (linear fit through origin). At the maximum degree available in our truncation (L_max = 6), this scaling gives β₀ ≈ c·L² ≈ 186.8.
+
+Our pipeline uses a K=50 random-coefficient superposition over all modes (not a single eigenfunction), yielding mean β₀ ≈ 136. This lies below the single-eigenfunction mean at L_max (≈150) and the fit extrapolation c·L² at L=6 (≈187), consistent with the superposition averaging over degrees 1 through 6 rather than concentrating at the highest degree. The comparison provides context that our observed β₀ is in a reasonable range relative to the Nazarov–Sodin scaling when moving from single-degree to multi-mode random fields.

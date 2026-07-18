@@ -1,0 +1,17 @@
+mesh,genus,K,stimulus,beta0_mean,beta0_std
+triple_torus_genus3_remeshed,3,200,A1,24.0,0.0
+triple_torus_genus3_remeshed,3,200,A2,12.7984,1.1527
+triple_torus_genus3_remeshed,3,200,A3,51.7261,10.2873
+triple_torus_genus3_remeshed,3,200,A5,59.8508,7.2515
+quad_torus_genus4_remeshed,4,200,A1,10.542,0.4982
+quad_torus_genus4_remeshed,4,200,A2,15.4103,2.2546
+quad_torus_genus4_remeshed,4,200,A3,50.979,11.2735
+quad_torus_genus4_remeshed,4,200,A5,66.803,8.0687
+penta_torus_genus5_remeshed,5,200,A1,23.0,0.0
+penta_torus_genus5_remeshed,5,200,A2,16.6585,1.7093
+penta_torus_genus5_remeshed,5,200,A3,62.9709,11.447
+penta_torus_genus5_remeshed,5,200,A5,96.0233,8.9316
+hex_torus_genus6_remeshed,6,200,A1,16.0,0.0
+hex_torus_genus6_remeshed,6,200,A2,21.6212,1.9889
+hex_torus_genus6_remeshed,6,200,A3,67.7727,11.5189
+hex_torus_genus6_remeshed,6,200,A5,97.289,10.0651

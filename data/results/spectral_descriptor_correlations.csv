@@ -1,0 +1,13 @@
+beta0_source,descriptor,spearman_rho,spearman_p,n
+genus_sequence_7point,M_eff_clusters,-0.8468812149338255,0.016197127467871632,7
+genus_sequence_7point,M_eff_mean_size,0.8468812149338255,0.016197127467871632,7
+genus_sequence_7point,spectral_entropy_H,-0.7142857142857144,0.07134356146753759,7
+genus_sequence_7point,spectral_gap_gamma,-0.9285714285714288,0.0025194724037946874,7
+genus_sequence_7point,eigenvalue_density_rho,-0.7857142857142859,0.03623846267982713,7
+genus_sequence_7point,product_score_P,-0.3571428571428572,0.4316113520383278,7
+9mesh_A5_direct,M_eff_clusters,-0.016666666666666666,0.9660548039946861,9
+9mesh_A5_direct,M_eff_mean_size,0.016666666666666666,0.9660548039946861,9
+9mesh_A5_direct,spectral_entropy_H,-0.016666666666666666,0.9660548039946861,9
+9mesh_A5_direct,spectral_gap_gamma,-0.18333333333333335,0.6368198117628943,9
+9mesh_A5_direct,eigenvalue_density_rho,-0.03333333333333333,0.932156735540504,9
+9mesh_A5_direct,product_score_P,0.2333333333333333,0.5456987782182727,9

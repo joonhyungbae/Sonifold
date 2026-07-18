@@ -1,0 +1,16 @@
+mesh_name,genus,distribution,mean_beta0,std_beta0,median_beta0,q25_beta0,q75_beta0
+double_torus_genus2,2,dirichlet,69.861,9.159,70.0,64.0,76.0
+double_torus_genus2,2,normal_L2,72.679,8.8303,72.0,67.0,79.0
+double_torus_genus2,2,uniform_sphere,72.095,9.0049,72.0,65.75,78.0
+quad_torus_genus4,4,dirichlet,105.605,12.5333,106.0,98.0,114.0
+quad_torus_genus4,4,normal_L2,106.799,11.9109,107.0,99.0,115.0
+quad_torus_genus4,4,uniform_sphere,106.892,12.0037,107.0,99.0,115.0
+sphere_genus0,0,dirichlet,130.392,13.9228,130.0,121.0,140.0
+sphere_genus0,0,normal_L2,134.15,13.1073,134.0,125.0,143.0
+sphere_genus0,0,uniform_sphere,134.139,13.3248,134.0,125.0,144.0
+torus_genus1,1,dirichlet,76.506,9.9973,76.0,70.0,83.0
+torus_genus1,1,normal_L2,78.71,9.6695,78.0,72.0,85.0
+torus_genus1,1,uniform_sphere,78.414,10.0549,78.0,71.0,85.0
+triple_torus_genus3,3,dirichlet,96.186,11.3612,97.0,89.0,104.0
+triple_torus_genus3,3,normal_L2,97.799,11.1844,98.0,91.0,105.0
+triple_torus_genus3,3,uniform_sphere,97.579,10.9265,98.0,91.0,105.0

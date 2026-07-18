@@ -24,8 +24,8 @@ sys.path.insert(0, str(root))
 from audio.audio_library import get_audio
 from audio.fft_analysis import compute_fft_frames, N_FFT, N_BINS
 
-# Reuse pipeline from temporal_with_audio
-from scripts.temporal_with_audio import (
+# Reuse pipeline from temporal_with_audio (lives alongside this script in scripts/figures)
+from scripts.figures.temporal_with_audio import (
     load_temporal_beta0,
     build_audio_10s,
     HOP_LENGTH,
